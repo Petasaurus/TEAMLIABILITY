@@ -1,0 +1,75 @@
+/***************** TAGS *****************/
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+div {
+    margin-top: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #84bac6;
+    font-size: 4rem;
+    margin-top: .75rem;
+    font-family: "Arial Rounded MT Bold";
+    text-align: center;
+}
+
+/***************** CLASSES *****************/
+
+.frontpage{
+   z-index: -1;
+}
+
+.snowscape{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    background-image: url("BackgroundGif.gif");
+    background-repeat: none;
+    background-size: 120%;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.black{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: -4;
+    background-color: black;
+    background-repeat: none;
+    background-size: 120%;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.padding{
+    height: 1vw;
+}
+
+.text{
+    text-shadow: 2px 2px 8px #10242b;
+}
+.penguin{
+    width: 25%;
+    margin-top: 3rem;
+}
+.penguin:hover{
+   z-index: 1;
+}
+
+/***************** IDS *****************/
