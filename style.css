@@ -62,11 +62,11 @@ h1 {
 }
 
 .text{
-    text-shadow: 2px 2px 8px #10242b;
+    text-shadow: 2px 2px 8px #06181e;
 }
 .penguin{
     width: 25%;
-    margin-top: 3rem;
+    margin-top: 10%;
 }
 .penguin:hover{
    z-index: 1;
